@@ -1,6 +1,6 @@
-# Majorsilence Reporting (formerly My-FyiReporting)
+# Majorsilence Reporting (原名 My-FyiReporting)
 
-If you have any question about Majorsilence Reporting or do you want to contribute a discussion group for Majorsilence Reporting is available here:
+如果你要对 Majorsilence Reporting 提一些问题，或者想参与到项目中，这里有一个针对 Majorsilence Reporting 的讨论组：
 
 https://groups.google.com/d/forum/myfyireporting
 
@@ -9,59 +9,55 @@ https://groups.google.com/d/forum/myfyireporting
 |---------|:------:|:------:|
 |**Release**|NA | [![Build status appveyor](https://ci.appveyor.com/api/projects/status/a44n015bli95rmpw?svg=true)](https://ci.appveyor.com/project/majorsilence/my-fyireporting) |
 
-# Documentation
-See the [projects wiki](https://github.com/majorsilence/My-FyiReporting/wiki).
+# 文档
+参考 [项目 wiki](https://github.com/majorsilence/My-FyiReporting/wiki).
 
-# Download
+# 下载
 
-See the [downloads page](https://github.com/majorsilence/My-FyiReporting/wiki/Downloads).
+参考 [下载页面](https://github.com/majorsilence/My-FyiReporting/wiki/Downloads).
 
-Alternatively if you want keep up with the latest version you can always use Git
+另外，如果你想跟进最新版本，可以使用 Git
 
     git clone https://github.com/majorsilence/My-FyiReporting.git
 
-# Introduction
-"FYIReporting Designer is a report and charting system based on Microsoft's Report Definition Language (RDL). 
-Tabular, free form, matrix, charts are fully supported. HTML, PDF, XML, .Net Control, and printing supported. 
-A WYSIWYG designer allows you to create reports without knowledge of RDL. Wizards are available for creating new 
-reports and for inserting new tables, matrixes, and charts into existing reports." (http://www.fyireporting.com/)
+# 介绍
+"FYIReporting Designer 是一个基于微软报表定义语言 (RDL) 的报表系统。 
+完全支持表格、表单、矩阵、图表，支持 HTML, PDF, XML, .Net 控件, 和打印。 
+一个所见即所得设计器使你可以不必了解 RDL 即可创建报表，方便的向导可用于创建新报表，插入表格、矩阵和图表到已存在的报表中。" (http://www.fyireporting.com/)
 
-Use the report viewer .NET controls from ASP.NET, WPF, or Winforms using C#, F#, VB.NET, IronPython, or any 
-other .NET language.  The winform viewer also works in linux using mono.  An experimental Gtk/WPF/Cocoa viewer also exists. 
+使用 .NET 报表查看控件即可，ASP.NET、WPF、或者 Winforms 都可以，语言可选择 C#、F#、VB.NET、IronPython 以及其他 .NET 语言。winform 查看器使用mono可以工作在 linux 下。另外，有一个实验性的 Gtk/WPF/Cocoa 查看器。 
 
-Majorsilence Reporting started as My-FyiReporting which was a fork of fyiReporting after it died. It has been rebranded as Majorsilence Reporting to make it clearer that it is a separate forked project.  Majorsilence Reporting is a fork of fyiReporting.  I cannot stress this enough.  This is a FORK.
-The main purpose is to make sure that I have a copy of fyiReporting since that project seems to be dead.  I am leaving the
-github project named My-FyiReporting so links are not broken.  All branding will eventually be replaced with Majorsilence Reporting.
+Majorsilence Reporting 最初叫 My-FyiReporting，它是 fyiReporting 消亡后的一个分支。它更名为 Majorsilence Reporting 以表示它是项目的一个单独的分支。Majorsilence Reporting 是 fyiReporting 的一个分支。我强调得够多了，这是一个分支。
+主要的目的是确保我对 fyiReporting 有一个拷贝，因为那个项目看起来消亡了。I am leaving the
+github project named My-FyiReporting so links are not broken.  所有的品牌最终都被 Majorsilence Reporting 所替代。
 
-Also check this [projects wiki](https://github.com/majorsilence/My-FyiReporting/wiki) as information will be slowly added.
+另外，检查这个 [项目 wiki](https://github.com/majorsilence/My-FyiReporting/wiki) ，信息会逐渐添加上。
 
-Majorsilence Reporting is currently built with visual studio 2010 and 2012 and targets .net 4.0.  You can also run the build script in 
-the Release-Builds folder to build .net 3.5 (may be broken) and 4.0 packages.  
+当前，Majorsilence Reporting 使用 visual studio 2010 和 2012 构造，目标平台是 .net 4.0。你也可以执行 Release-Builds 文件夹中的构建脚本来构建 .net 3.5 (可能会出错) 和 4.0 程序包。  
 
-# Development
-Majorsilence Reporting is developed with the following workflow:
+# 开发
+Majorsilence Reporting 按以下工作流程开发:
 
-* Nothing happens for weeks
-* Someone needs it to do something it doesn't already do
-* That person implements that something and submits a pull request
-* Repeat
-If it doesn't have a feature that you want it to have, add it.  If it has a bug you need fixed, fix it.
+* 好几个星期都没事儿
+* 有人需要它做一些现在不会做的事
+* 某人实现某些东西并提交一个 pull 请求
+* 重复
+如果它没有你想要它包含的特性，添加。如果它有一个你需要修复的错误，修复。
 
-## Contribute:
-All contributions welcome.  I'll try to respond the same day to any emails or pull requests.  Or within a few 
-days at the most.  Small pull requests are best as they are easier to review.
+## 参与:
+欢迎所有的参与.  我会尽量在同一天回答任何电子邮件或 pull 请求，最多几天。最好是小的 pull 请求，因为它们容易复审。
 
-See the wiki page [https://github.com/majorsilence/My-FyiReporting/wiki/Contribute](https://github.com/majorsilence/My-FyiReporting/wiki/Contribute)
+参考 wiki 页面 [https://github.com/majorsilence/My-FyiReporting/wiki/Contribute](https://github.com/majorsilence/My-FyiReporting/wiki/Contribute)
 
-### Core Team
+### 核心团队
 
 * [majorsilence](https://github.com/majorsilence) (Peter Gill)
 * [Gankov](https://github.com/Gankov)
 
 
-### Contributors
+### 参与者
 
-A big thanks to all of Majorsilence Reporting contributors:
+非常感谢所有 Majorsilence Reporting 的参与者：
 
 * [ausadmin](https://github.com/ausadmin)
 * [Geek648](https://github.com/Geek648)
@@ -74,7 +70,7 @@ A big thanks to all of Majorsilence Reporting contributors:
 * [sobolev88](https://github.com/sobolev88)
 
 
-# Layout:
+# 结构:
 
 * DataProviders\DataProviders.sln
 * Images\
@@ -109,23 +105,19 @@ A big thanks to all of Majorsilence Reporting contributors:
 * ReportSever\
 
 
- RDL Compliance
-Report file format specifications can be obtained from microsoft.  I believe fyiReporting is currently mostly 
-compatible with RDL 2005.  If you want to add more features see the specfications.
+ RDL 依赖性
+报表文件格式说明书可以从微软获得。我相信 fyiReporting 当前最兼容于 RDL 2005。如果你想添加更多特性，参考说明书。
 
 * RDL specifications: [http://msdn.microsoft.com/en-us/library/dd297486%28v=sql.100%29.aspx](http://msdn.microsoft.com/en-us/library/dd297486%28v=sql.100%29.aspx)
 * 2005 direct link: [http://download.microsoft.com/download/c/2/0/c2091a26-d7bf-4464-8535-dbc31fb45d3c/rdlNov05.pdf](http://download.microsoft.com/download/c/2/0/c2091a26-d7bf-4464-8535-dbc31fb45d3c/rdlNov05.pdf)
 * 2008 direct link: [http://download.microsoft.com/download/6/5/7/6575f1c8-4607-48d2-941d-c69622e11c32/RDL_spec_08.pdf](http://download.microsoft.com/download/6/5/7/6575f1c8-4607-48d2-941d-c69622e11c32/RDL_spec_08.pdf)
 * 2008 R2 direct link: [http://download.microsoft.com/download/B/E/1/BE1AABB3-6ED8-4C3C-AF91-448AB733B1AF/Report%20Definition.xps](http://download.microsoft.com/download/B/E/1/BE1AABB3-6ED8-4C3C-AF91-448AB733B1AF/Report%20Definition.xps)
 
-#User interface tutorials:
-ReportingCloud (another fork) has made some tutorials for using the designer and creating reports. 
+#用户界面教程:
+ReportingCloud (另一个分支) 已经制作了一些关于使用设计器以及创建报表的教程。 
 [http://sourceforge.net/projects/reportingcloud/files/](http://sourceforge.net/projects/reportingcloud/files/)
 
-I know there are other forks but last I checked they also seemed to be dead.  The main fyiReporting site is 
-found at http://www.fyireporting.com/ and it has examples found at [http://www.fyireporting.com/helpv4/index.php](http://www.fyireporting.com/helpv4/index.php) and 
-the forum is [http://www.fyireporting.com/forum/index.php](http://www.fyireporting.com/forum/index.php).  However has I said above for the most part it is a dead 
-project.
+我知道，有其他一些分支，但是上次我检查的时候，它们似乎消亡了。fyiReporting 主站点可以在这里 http://www.fyireporting.com/ 找到，在 [http://www.fyireporting.com/helpv4/index.php](http://www.fyireporting.com/helpv4/index.php) 可以找到一些例子。论坛地址是 [http://www.fyireporting.com/forum/index.php](http://www.fyireporting.com/forum/index.php)。 当然，上面我已经说了，多数版块已经消亡.
 
 UPDATE: ReportFU [http://reportfu.org](http://reportfu.org) is alive?  
 UPDATE: NReport [http://nreports.codeplex.com/](http://nreports.codeplex.com/) - Looks dead.
