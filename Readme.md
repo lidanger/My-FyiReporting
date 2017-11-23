@@ -29,7 +29,7 @@ https://groups.google.com/d/forum/myfyireporting
 
 Majorsilence Reporting 最初叫 My-FyiReporting，它是 fyiReporting 消亡后的一个分支。它更名为 Majorsilence Reporting 以表示它是项目的一个单独的分支。Majorsilence Reporting 是 fyiReporting 的一个分支。我强调得够多了，这是一个分支。
 主要的目的是确保我对 fyiReporting 有一个拷贝，因为那个项目看起来消亡了。I am leaving the
-github project named My-FyiReporting so links are not broken.  所有的品牌最终都被 Majorsilence Reporting 所替代。
+github project named My-FyiReporting so links are not broken. 所有的品牌最终都会被 Majorsilence Reporting 所替代。
 
 另外，检查这个 [项目 wiki](https://github.com/majorsilence/My-FyiReporting/wiki) ，信息会逐渐添加上。
 
@@ -105,7 +105,7 @@ Majorsilence Reporting 按以下工作流程开发:
 * ReportSever\
 
 
- RDL 依赖性
+ RDL 合规性
 报表文件格式说明书可以从微软获得。我相信 fyiReporting 当前最兼容于 RDL 2005。如果你想添加更多特性，参考说明书。
 
 * RDL specifications: [http://msdn.microsoft.com/en-us/library/dd297486%28v=sql.100%29.aspx](http://msdn.microsoft.com/en-us/library/dd297486%28v=sql.100%29.aspx)
